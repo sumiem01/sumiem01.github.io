@@ -64,9 +64,12 @@ ignoreErrors = ["error-remote-getjson"]
   # activityDelay = 5 : deprecated
 
   description = """
-  Hi, I am Mateusz Sumiec! 
+  Hi, I am Mateusz Sumiec!
   Nice to meet you!
-  
+  At present I am Data Modeler at Heineken.
+  I know how to manipulate data in python and sql.
+  I am also fairly good at building dynamic reports in excel and Power BI.
+  Let me know if you require my skills.
   """
 
   # Note: If you want to use a Markdown file, you can use the following
@@ -75,11 +78,14 @@ ignoreErrors = ["error-remote-getjson"]
 
   [Params.Tree]
   use = true
-  folderName = "my_activity"
+  folderName = "my_skills"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["C - Basic", "https://www.example.com/"],
-    ["Python", "https://www.example.com/"],
+    ["Python", "https://github.com/sumiem01"],
+    ["SQL", "https://github.com/sumiem01"],
+    ["MS Excel", "https://github.com/sumiem01"],
+	["Power BI", "https://github.com/sumiem01"],
+    ["C/C++ - Basic", "https://github.com/sumiem01"],
   ]
 
 [module]
