@@ -3,12 +3,12 @@ name: github pages
 on:
   push:
     branches:
-      - gh-pages  # Set a branch to deploy
+      - main  # Set a branch to deploy
   pull_request:
 
 jobs:
   deploy:
-    runs-on: Windows 10 Pro
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
         with:
